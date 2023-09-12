@@ -1,0 +1,53 @@
+[
+    {
+      "id": "1",
+      "cover": "https://startupstash.com/wp-content/uploads/2022/12/1671615999_chatsonic_cover_thumbnail.png",
+      "title": "Exploring the Universe",
+      "author_img": "https://i.ibb.co/yQFJ42h/ava.jpg",
+      "author": "John Doe",
+      "posted_date": "2023-09-10",
+      "reading_time": 12,
+      "hashtags": ["space", "exploration", "astronomy"]
+    },
+    {
+      "id": "2",
+      "cover": "https://i.ytimg.com/vi/_LZzfpjepoY/maxresdefault.jpg",
+      "title": "The Art of Cooking",
+      "author_img": "https://i.ibb.co/YD2mqH7/amy.jpg",
+      "author": "Jane Smith",
+      "posted_date": "2023-09-09",
+      "reading_time": 8,
+      "hashtags": ["cooking", "recipes", "food"]
+    },
+    {
+      "id": "3",
+      "cover": "https://i.blogs.es/7b41f4/google-bard/1366_2000.jpeg",
+      "title": "Traveling the World",
+      "author_img": "https://i.ibb.co/k4tkc42/oliviar-harris.jpg",
+      "author": "Michael Johnson",
+      "posted_date": "2023-09-08",
+      "reading_time": 15,
+      "hashtags": ["travel", "adventure", "wanderlust"]
+    },
+    {
+      "id": "4",
+      "cover": "https://s3.amazonaws.com/images.seroundtable.com/bing-indexing-issues-1603799404.jpg",
+      "title": "The Science of AI",
+      "author_img": "https://i.ibb.co/fDbPv7h/Noha.jpg",
+      "author": "Emily White",
+      "posted_date": "2023-09-07",
+      "reading_time": 10,
+      "hashtags": ["AI", "technology", "science"]
+    },
+    {
+      "id": "5",
+      "cover": "https://huggingface.co/front/thumbnails/dialogpt.png",
+      "title": "Health and Wellness",
+      "author_img": "https://i.ibb.co/D9wWRM6/olivia.jpg",
+      "author": "David Brown",
+      "posted_date": "2023-09-06",
+      "reading_time": 7,
+      "hashtags": ["health", "wellness", "fitness"]
+    }
+  ]
+  
