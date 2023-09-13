@@ -15,9 +15,12 @@ function App() {
     setMark(newMark)
   }
 
-  const countHandle = (reading_time) => {
+  const countHandle = (reading_time , id) => {
+    console.log(id)
      const newCount = count + reading_time
      setCount(newCount)
+     const removedBookMark = mark.filter(book => (book.id !== id))
+     setMark(removedBookMark)
   }
 
   return (

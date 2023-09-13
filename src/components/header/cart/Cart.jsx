@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import { FaBookmark } from 'react-icons/fa';
 
 const Cart = ({ cart , markHandle, countHandle}) => {
-  const {title, cover, author_img, author, posted_date, reading_time, hashtags } = cart;
+  const {title, id, cover, author_img, author, posted_date, reading_time, hashtags } = cart;
   return (
     <div>
       <div className="  space-y-4 mb-5 border-b-2 pb-5 pt-2">
@@ -35,7 +35,7 @@ const Cart = ({ cart , markHandle, countHandle}) => {
                 hashtags.map((hash, index) => <span className="mr-4" key={index}><a>#{hash}</a></span>)
             }
         </p>
-            <a onClick={()=> countHandle(reading_time)} className="text-sm font-medium underline hover:cursor-pointer text-[#6047EC]">Mark as read</a>
+            <a onClick={()=> countHandle(reading_time, id)} className="text-sm font-medium underline hover:cursor-pointer text-[#6047EC]">Mark as read</a>
             
       </div>
     </div>
